@@ -1,0 +1,31 @@
+@model Flowers.Models.Shop
+@{
+	ViewBag.Title = "Удаление товара";
+}
+<h2>Товар: @Model.Name</h2>
+<div>
+	<dl class="dl-horizontal">
+		<dt>Название</dt>
+		<dt>
+			@Html.DisplayFor(model => model.Name)
+		</dt>
+
+		<dt>Цена</dt>
+		<dt>
+			@Html.DisplayFor(model => model.Price)
+		</dt>
+
+		<dd>Количество</dd>
+		<dt>
+			@Html.DisplayFor(model => model.Amount)
+		</dt>
+
+		<div>
+			<form asp-action="Delete" asp-controller="home" method="post">
+				<div class="form-group">
+					<input type="submit" class="btn btn-default" value="Удалить">
+				</div>
+			</form>
+		</div>	
+	</dl>
+</div>

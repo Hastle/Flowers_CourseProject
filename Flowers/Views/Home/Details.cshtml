@@ -1,0 +1,23 @@
+@model Flowers.Models.Shop
+@{
+	ViewBag.Title = Model.Name;
+}
+<h2>Товар: @Model.Name</h2>
+<div>
+	<dl class="dl-horizontal">
+		<dt>Идентификатор</dt>
+		<dt>@Model.Id</dt>
+
+		<dt>Цена</dt>
+		<dt>@Model.Price</dt>
+
+		<dd>Количество</dd>
+		<dt>@Model.Amount</dt>
+
+		<dd>Действия</dd>
+		<dd>
+			<a asp-action="Edit" asp-controller="home" asp-route-id="@Model.Id">Изменить</a>
+			<a asp-action="Delete" asp-controller="home" asp-route-id="@Model.Id">Удалить</a>
+		</dd>
+	</dl>
+</div>
