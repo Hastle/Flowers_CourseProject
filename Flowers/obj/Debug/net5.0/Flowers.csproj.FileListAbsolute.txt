@@ -48,8 +48,6 @@ C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Flowers.csproj.Cor
 C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Flowers.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Flowers.RazorAssemblyInfo.cache
 C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Flowers.RazorAssemblyInfo.cs
-C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\scopedcss\bundle\Flowers.styles.css
-C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\staticwebassets\Flowers.StaticWebAssets.Manifest.cache
 C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Flowers.TagHelpers.input.cache
 C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Flowers.TagHelpers.output.cache
 C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Flowers.RazorCoreGenerate.cache
@@ -73,3 +71,5 @@ C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\ref\Flowers.dll
 C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Razor\Views\Home\Edit.cshtml.g.cs
 C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Razor\Views\Home\Delete.cshtml.g.cs
 C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\Razor\Views\Home\Products.cshtml.g.cs
+C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\scopedcss\bundle\Flowers.styles.css
+C:\Users\Sergey\source\repos\Flowers\Flowers\obj\Debug\net5.0\staticwebassets\Flowers.StaticWebAssets.Manifest.cache
