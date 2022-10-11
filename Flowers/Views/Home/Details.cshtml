@@ -2,22 +2,16 @@
 @{
 	ViewBag.Title = Model.Name;
 }
-<h2>Товар: @Model.Name</h2>
-<div>
+<div class="col-md-6 offset-md-3 text-center">
+	<h2>Товар: @Model.Name</h2>
+	<div class="mt-4 mb-3">
+		<img src="~/img/@Model.Image">
+	</div>
 	<dl class="dl-horizontal">
-		<dt>Идентификатор</dt>
-		<dt>@Model.Id</dt>
-
-		<dt>Цена</dt>
-		<dt>@Model.Price</dt>
-
-		<dd>Количество</dd>
-		<dt>@Model.Amount</dt>
-
-		<dd>Действия</dd>
-		<dd>
-			<a asp-action="Edit" asp-controller="home" asp-route-id="@Model.Id">Изменить</a>
-			<a asp-action="Delete" asp-controller="home" asp-route-id="@Model.Id">Удалить</a>
-		</dd>
+		<dt>Идентификатор - @Model.Id</dt>
+		<dt>Цена - @Model.Price <i class="fa fa-ruble-sign"></i></dt>
+		<dt>Количество - @Model.Amount</dt>
+		<a asp-action="Delete" asp-controller="home" asp-route-id="@Model.Id" class="btn-main m-3 text-decoration-none">Удалить</a>
+		<a asp-action="Edit" asp-controller="home" asp-route-id="@Model.Id" class="btn-main m-3 text-decoration-none">Изменить</a>
 	</dl>
 </div>
